@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Jogo - Pedra , Papel , Tesoura </title> 
+     <link rel="stylesheet" href="style.css"> 
+     <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap" rel="stylesheet">
+</head>
+<body> 
+    <div class="container-geral ">  
+        <header>
+            <h1> Pedra,Papel e Tesoura  : </h1>  
+        </header>
+        <div class="container-campobatalha">
+           <div class="container-escolhas--armas"> 
+               <h2>Clique na imagem abaixo para escolher o seu:</h2>
+                    <ul>
+                        <li>Pedra<figure id="pedra" ><img src="https://images.pexels.com/photos/2363901/pexels-photo-2363901.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="pedra"></figure></li>
+                        <li>Papel<figure id="papel"><img src="https://images.pexels.com/photos/479444/pexels-photo-479444.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="papel"></figure> </li>
+                        <li>Tesoura<figure id="tesoura"><img src="https://images.pexels.com/photos/4226896/pexels-photo-4226896.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="tesoura"></figure></li>
+                    </ul> 
+            </div> 
+               <h2> Campo de Batalha: </h2>  
+                    <div class=container-envelope>
+                        <div id="campobatalha">
+                            <h3>Você escolheu :</h3> 
+                            <div id="resultado-usuario"></div> 
+                            <h3> Clique na imagem para escolha do oponente:</h3> 
+                           <figure><img src="https://tse3.mm.bing.net/th?id=OIP.C_FUNLETYV_iknuwAVPVdwHaER&pid=Api&P=0&w=310&h=180" id="oponente" alt="icone oponente"> </figure>  </h3>  
+                            <div id="possibilidade"></div> 
+                        </div>
+                    </div> 
+                <div class="container-resultado"> 
+                    <h2> O resultado foi :</h2>  
+                    <div id=resultado> </div>
+                    <input type="button" value="jogar novamente" id="btn-Jogarnovamente" onclick="apagarResultados()">
+                </div>
+            </div>
+        </div>
+     </div>
+
+
+
+
+
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
