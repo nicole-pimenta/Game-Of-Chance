@@ -1,0 +1,23 @@
+div{
+    background-color:lightgrey;
+    height: 50px;
+    width:90vw;
+    margin: 0 auto;
+    padding:15px;
+    font-size: 25px;
+} 
+
+.divImage{
+    background-color:lightblue;
+    height: 300px;
+    width:90vw;
+    margin: 15px auto;
+  
+   
+} 
+
+img{
+    height: 130px;
+    width:130px;
+    margin: 10px;
+}
